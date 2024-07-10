@@ -5,6 +5,10 @@
   ;
 }
 
+p {
+  color: #0D1321;
+}
+
 .padding {
   padding: 0px 80px 90px 80px;
 }
@@ -155,4 +159,25 @@
 .card_js {
   padding: 40px;
   background-color: rgba(226, 211, 75, 0.4);
+}
+
+.next_container {
+  padding: 48px 0 0 0;
+}
+
+.next_card {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.next_img {
+  padding: 5px 15px 5px 5px;
+}
+
+.next_link {
+  color: black;
+  font-weight: 800;
 }
