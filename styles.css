@@ -5,6 +5,10 @@
   ;
 }
 
+.padding {
+  padding: 0px 80px 90px 80px;
+}
+
 .nav {
   align-items: center;
   display: flex;
@@ -75,7 +79,7 @@
 }
 
 .blog_section {
-  padding: 97px 80px;
+  padding: 90px 80px;
 }
 
 .heading {
@@ -84,7 +88,7 @@
   text-align: center;
 }
 
-.blog_head {
+.head {
   font-weight: 800;
   letter-spacing: 1px;
   margin-bottom: 1rem;
@@ -97,21 +101,58 @@
   justify-content: space-between;
 }
 
-.cart_head {
+.card_head {
   padding: 5px;
   margin: 10px 0px 10px 0px;
   letter-spacing: 1px;
 }
 
-.cart_para {
+.card_para {
   padding: 5px;
   margin: 10px 0px 10px 0px;
   letter-spacing: 1px;
 }
 
-.cart_btn {
+.card_btn {
   padding: 10px;
   margin: 10px 0px 10px 5px;
   letter-spacing: 1px;
   cursor: pointer;
+}
+
+.youtube {
+  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cards {
+  margin: 48px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card_html {
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.2);
+}
+
+.title {
+  margin: 10px 0px 10px 0px;
+}
+
+.link {
+  color: #0D1321;
+}
+
+.card_css {
+  padding: 40px;
+  background-color: rgb(135, 194, 194, 0.4);
+}
+
+.card_js {
+  padding: 40px;
+  background-color: rgba(226, 211, 75, 0.4);
 }
