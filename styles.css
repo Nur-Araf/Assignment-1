@@ -1,3 +1,4 @@
+/* Universal */
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@ p {
   padding: 0px 80px 90px 80px;
 }
 
+/* Nav and Landing */
 .nav {
   align-items: center;
   display: flex;
@@ -82,6 +84,8 @@ p {
   cursor: pointer;
 }
 
+/* Blog section */
+
 .blog_section {
   padding: 90px 80px;
 }
@@ -124,6 +128,8 @@ p {
   cursor: pointer;
 }
 
+/* youtube and Current Target */
+
 .youtube {
   margin-top: 48px;
   justify-content: center;
@@ -161,6 +167,8 @@ p {
   background-color: rgba(226, 211, 75, 0.4);
 }
 
+/* Next Target */
+
 .next_container {
   padding: 48px 0 0 0;
 }
@@ -180,4 +188,75 @@ p {
 .next_link {
   color: black;
   font-weight: 800;
+}
+
+/* Support Section */
+
+.support {
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)), url("assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+
+.support_H {
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.support_p {
+  color: white;
+  letter-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+}
+
+.input::placeholder {
+  padding: 0 0 0 15px;
+}
+
+.submit {
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px 10px 80px;
+}
+
+.links {
+  justify-content: space-evenly;
+}
+
+.linkFooter {
+  padding: 0 10px 0 0;
+  cursor: pointer;
+}
+
+/* Special task */
+
+.special_task {
+  text-decoration: none;
 }
